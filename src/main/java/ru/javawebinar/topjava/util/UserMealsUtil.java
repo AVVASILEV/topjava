@@ -39,7 +39,7 @@ public class UserMealsUtil {
         -  должны возвращаться только записи между startTime и endTime
                 -  поле UserMealWithExceed.exceed должно показывать,
                 превышает ли сумма калорий за весь день параметра метода caloriesPerDay
-
+        //HW0
         Т.е UserMealWithExceed - это запись одной еды, но поле exceeded будет одинаково для всех записей за этот день.*/
         List<UserMealWithExceed> me = new ArrayList<>();
         Map<LocalDate, Integer> calperday = new HashMap<>();
