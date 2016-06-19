@@ -3,7 +3,7 @@ package main.java.ru.javawebinar.topjava.web;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import main.java.ru.javawebinar.topjava.model.UserMeal;
-import main.java.ru.javawebinar.topjava.repository.InMemoryUserMealRepositoryImpl;
+import main.java.ru.javawebinar.topjava.repository.mock.InMemoryUserMealRepositoryImpl;
 import main.java.ru.javawebinar.topjava.repository.UserMealRepository;
 import main.java.ru.javawebinar.topjava.util.UserMealsUtil;
 

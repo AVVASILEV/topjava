@@ -1,5 +1,6 @@
 package main.java.ru.javawebinar.topjava.web.user;
 
+import org.springframework.stereotype.Controller;
 import main.java.ru.javawebinar.topjava.LoggedUser;
 import main.java.ru.javawebinar.topjava.model.User;
 
@@ -7,6 +8,7 @@ import main.java.ru.javawebinar.topjava.model.User;
  * GKislin
  * 06.03.2015.
  */
+@Controller
 public class ProfileRestController extends AbstractUserController {
 
     public User get() {

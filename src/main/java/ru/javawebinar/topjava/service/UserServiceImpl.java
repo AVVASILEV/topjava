@@ -1,5 +1,7 @@
 package main.java.ru.javawebinar.topjava.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import main.java.ru.javawebinar.topjava.model.User;
 import main.java.ru.javawebinar.topjava.repository.UserRepository;
 import main.java.ru.javawebinar.topjava.util.exception.ExceptionUtil;
@@ -11,8 +13,10 @@ import java.util.List;
  * GKislin
  * 06.03.2015.
  */
+@Service
 public class UserServiceImpl implements UserService {
 
+    @Autowired
     private UserRepository repository;
 
     public User save(User user) {

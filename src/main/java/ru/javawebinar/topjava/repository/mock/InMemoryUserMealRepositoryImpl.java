@@ -1,7 +1,9 @@
-package main.java.ru.javawebinar.topjava.repository;
+package main.java.ru.javawebinar.topjava.repository.mock;
 
 import main.java.ru.javawebinar.topjava.model.UserMeal;
 import main.java.ru.javawebinar.topjava.util.UserMealsUtil;
+import main.java.ru.javawebinar.topjava.repository.UserMealRepository;
+
 
 import java.util.Collection;
 import java.util.Map;
